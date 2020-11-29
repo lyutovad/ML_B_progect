@@ -2,7 +2,7 @@
 
 Стек:
 
-ML: sklearn, pandas, numpy API: flask [Данные](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
+ML: sklearn, pandas, numpy API: flask Данные: <https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009>
 
 ### Задача: предсказать по химическому составу, является вино качественным или нет (поле quality). Бинарная классификация
 
@@ -17,15 +17,12 @@ ML: sklearn, pandas, numpy API: flask [Данные](https://www.kaggle.com/ucim
 
 
 ### Клонируем репозиторий и создаем образ
-
-$ git clone https://github.com/lyutovad/ML_B_progect
-
+'''$ git clone https://github.com/lyutovad/ML_B_progect
 $ cd ML_B_progect
-
 $ docker build -t lyutovad/ML_B_progect
-
+'''
 ### Запускаем контейнер
 
-$ docker run -d -p 8180:8180 -p 8181:8181 lyutovad/ML_B_progect
+'''$ docker run -d -p 8180:8180 -p 8181:8181 lyutovad/ML_B_progect'''
 
 ### Переходим на localhost:8181
