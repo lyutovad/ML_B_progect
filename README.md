@@ -2,7 +2,7 @@
 
 Стек:
 
-ML: sklearn, pandas, numpy API: flask [Данные] (https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
+ML: sklearn, pandas, numpy API: flask [Данные](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
 
 ### Задача: предсказать по химическому составу, является вино качественным или нет (поле quality). Бинарная классификация
 
