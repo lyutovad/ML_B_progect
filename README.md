@@ -19,7 +19,9 @@ pH - [2.74, 4.01
 Клонируем репозиторий и создаем образ
 
 $ git clone https://github.com/lyutovad/ML_B_progect
+
 $ cd ML_B_progect
+
 $ docker build -t lyutovad/ML_B_progect
 
 Запускаем контейнер
