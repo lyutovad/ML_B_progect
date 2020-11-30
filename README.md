@@ -13,7 +13,7 @@ ML: sklearn, pandas, numpy API: flask
 - sulphates - [0.33, 2]
 - free sulfur dioxide - [1, 72]
 - total sulfur dioxide - [6, 289]
-- pH - [2.74, 4.01
+- pH - [2.74, 4.01]
 
 Модель: XGBoost
 
