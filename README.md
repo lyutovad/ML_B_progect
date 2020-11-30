@@ -22,7 +22,7 @@ ML: sklearn, pandas, numpy API: flask
 ```
 $ git clone https://github.com/lyutovad/ml_b_project
 $ cd ml_b_project
-$ docker build -t lyutovad/ml_b_project
+$ docker build -t lyutovad/ml_b_project .
 ```
 
 ### Запускаем контейнер
