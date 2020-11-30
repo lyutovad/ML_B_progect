@@ -20,15 +20,15 @@ ML: sklearn, pandas, numpy API: flask
 
 ### Клонируем репозиторий и создаем образ
 ```
-$ git clone https://github.com/lyutovad/ml_b_progect
-$ cd ml_b_progect
-$ docker build -t lyutovad/ml_b_progect
+$ git clone https://github.com/lyutovad/ml_b_project
+$ cd ml_b_project
+$ docker build -t lyutovad/ml_b_project
 ```
 
 ### Запускаем контейнер
 
 ```
-$ docker run -d -p 8180:8180 -p 8181:8181 lyutovad/ml_b_progect
+$ docker run -d -p 8180:8180 -p 8181:8181 lyutovad/ml_b_project
 ```
 
 ### Переходим на localhost:8181
